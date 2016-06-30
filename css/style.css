@@ -150,3 +150,152 @@ header .hero {
    border: none;
    box-shadow: 0px 15px 14px 0px rgba(0,0,0,0.50);
 
+/* BENEFITS */
+ }
+ .benefits {
+  background: #0A2531;
+   text-align: center;
+   display:block;
+   position:relative;
+ }
+ .benefits ul {
+   margin: 0 auto;
+   padding:4em 0;
+ }
+ .benefits ul li {
+   list-style-type: none;
+   display: inline-block;
+ }
+ .benefits h2 {
+   color:#FFFFFF;
+   font-size:30px;
+   margin:0;
+   vertical-align: middle;
+ }
+ .benefits p {
+   color:#FFFFFF;
+   margin: 10;
+   vertical-align: middle;
+   padding:0em;
+ }
+ 
+ /* Pricing */ 
+ .pricing {
+   background: #FFFFFF
+   padding:4em 0;
+ }
+ .pricing h2 {
+   color:#0A2531;
+   font-size:40px;
+   text-align: center;
+ }
+ .pricing p {
+   color:#3F7D84;
+   font-size:20px;
+   text-align: center;
+ }
+ .pricing ul {
+   margin:0 auto;
+   padding:2em 0;
+ }
+ .pricing ul li {
+   list-style-type: none;
+ }
+  .pricing.box {
+   padding:0 15px 15px;
+   background: #FFFFFF;
+   min-height: 439px;
+   position: relative;
+   margin-top: 25px;
+   border:5px solid #DCE2E2;
+   border-radius: 50px;
+} 
+#highlight {
+    background: rgba(220,226,226,0.35);
+    min-height: 20px;
+    min-width: 70px;
+    position: relative;
+    padding: 1px 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+    display: inline-block;
+ }
+ .box.middle {
+   background: #3F7D84;
+   border: 5px solid #DCE2E2;
+   border-radius: 50px;
+   color: #FFFFFF
+ }
+ .box h3 {
+   font-family: "Quicksand", sans-serif;
+   font-weight: normal;
+   font-size:36px;
+   text-align: center;
+   margin:0 -15px 40px;
+   padding:10px 0;
+
+ }
+ .box ul li {
+   font-size:18px;
+   margin-bottom:20px;
+   font-weight: 100;
+   text-align: center;
+ }
+  .box .btn {
+   border-radius: 10px;
+   color:#FFFFFF;
+   font-weight: normal;
+   text-align: center;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #082531;
+   border: none;
+   box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.50);
+   border-radius: 50px;
+   position:absolute;
+   bottom:20px;
+   left:20px;
+   right:20px;
+}
+
+/* TESTIMONIALS */
+
+ .testimonials {
+   padding:4em 0;
+   text-align: center;
+   background: #082531;
+ }
+.testimonials h2 {
+   color:#FFFFFF;
+   font-size:40px;
+   text-align: center;
+ }
+ .testimonials p {
+   color:#3F7D84;
+   font-size:20px;
+   text-align: center;
+
+} .testimonials blockquote {
+   color:#3F7D84;
+   background: #FFFFFF; 
+   text-align: center;
+   font-style: normal;
+   width: absolute;
+   padding:15 15px 15px;
+   background: #FFFFFF;
+   min-height: 439px;
+   position: relative;
+   margin-top: 25px;
+   border:none;
+   border-radius: 50px;
+ }
+ .testimonials ul li {
+   list-style-type: none;
+   font-size:18px;
+   margin-top: 20px;
+   margin-bottom:20px;
+   font-weight: 100;
+   text-align: center;
+ }
+
