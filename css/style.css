@@ -17,7 +17,8 @@ html, body{
  p {
    font-size:16px;
    line-height: 19px;
-   font-weight: 100;
+   font-weight: 100; 
+ }
 
  /*Grid!*/
 }.container {
@@ -169,12 +170,12 @@ header .hero {
  .benefits h2 {
    color:#FFFFFF;
    font-size:30px;
-   margin:0;
+   margin:0 auto;
    vertical-align: middle;
  }
  .benefits p {
    color:#FFFFFF;
-   margin: 10;
+   margin-top: 10;
    vertical-align: middle;
    padding:0em;
  }
@@ -201,7 +202,7 @@ header .hero {
  .pricing ul li {
    list-style-type: none;
  }
-  .pricing.box {
+ .box {
    padding:0 15px 15px;
    background: #FFFFFF;
    min-height: 439px;
@@ -209,17 +210,6 @@ header .hero {
    margin-top: 25px;
    border:5px solid #DCE2E2;
    border-radius: 50px;
-} 
-#highlight {
-    background: rgba(220,226,226,0.35);
-    min-height: 20px;
-    min-width: 70px;
-    position: relative;
-    padding: 1px 100px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 1.7;
-    display: inline-block;
  }
  .box.middle {
    background: #3F7D84;
@@ -232,15 +222,16 @@ header .hero {
    font-weight: normal;
    font-size:36px;
    text-align: center;
-   margin:0 -15px 40px;
+   margin:0 -15px 20px;
    padding:10px 0;
-
+  
  }
  .box ul li {
    font-size:18px;
-   margin-bottom:20px;
+   margin-bottom:40px;
    font-weight: 100;
    text-align: center;
+   background-color:rgba(220,226,226,0.35);
  }
   .box .btn {
    border-radius: 10px;
@@ -271,24 +262,30 @@ header .hero {
    font-size:40px;
    text-align: center;
  }
+.testimonials h3 {
+   color:#3F7D84;
+   font-size:20px;
+   text-align: center;
+ }
  .testimonials p {
    color:#3F7D84;
    font-size:20px;
    text-align: center;
-
-} .testimonials blockquote {
+ }
+ .testimonials p.name{
    color:#3F7D84;
-   background: #FFFFFF; 
+   font-size:15px;
    text-align: center;
-   font-style: normal;
-   width: absolute;
-   padding:15 15px 15px;
-   background: #FFFFFF;
-   min-height: 439px;
+} 
+ .testimonials blockquote {
+   color:#3F7D84;
+   text-align: center;
+   background:#FFFFFF;
    position: relative;
-   margin-top: 25px;
-   border:none;
-   border-radius: 50px;
+   padding:30px;
+   width:auto;
+   margin:0;
+   border-radius: 30px;
  }
  .testimonials ul li {
    list-style-type: none;
@@ -297,5 +294,53 @@ header .hero {
    margin-bottom:20px;
    font-weight: 100;
    text-align: center;
+}
+.testimonials img {
+  vertical-align: left;
+  margin-right: 120px;
+  margin-bottom: -20px;
+  position: relative;
+    z-index: +1;
+}
+ /* FOOTER */
+ footer {
+   background-color: #082531;
+   color: #DCE2E2;
+   height: 150px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
  }
-
+ footer p, footer nav ul {
+   color: #DCE2E2;
+   font-size:14px;
+   font-weight:100;
+   text-align: center;
+   margin: -10px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#DCE2E2;
+   text-decoration: none;
+ }
+ footer .logo{
+   padding: 2.35em 5px;
+   color: #DCE2E2;
+   margin: 0 auto;
+   display: block;
+ }
+ @media (min-width: 992px){
+   footer{
+     background-color: #082531;
+     height: 100px;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+   footer .logo{
+     padding: 2em 0 2em 1.5em;
+}
