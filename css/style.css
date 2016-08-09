@@ -477,9 +477,16 @@ p {
    font-weight: 100;
  }
 
- .left-nav .items ul li a i {
+ .left-nav .items ul li a {
    font-size: 30px
    width:16px;
+   text-align: center;
+   margin-right:8px;
+ }
+
+ .left-nav .items i {
+   font-size: 100px
+   width:30px;
    text-align: center;
    margin-right:8px;
  }
@@ -511,6 +518,7 @@ p {
      -moz-transform: translate(0,0); /** Firefox **/
      z-index: 100;
  }
+
  .hamburger {
    position:absolute;
    z-index: 1000;
